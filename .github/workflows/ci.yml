@@ -1,11 +1,11 @@
 name: CIHaskell
 on:
-  merge:
-    branches:
-    - mark
+  # merge:
+  #   branches:
+  #   - mark
   push:
     branches:
-    - mark
+    - main
   workflow_dispatch:
 
 jobs:
