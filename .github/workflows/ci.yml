@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: ls
-      - run: ghc -v hello.hs
+      - run: ghc hello.hs
       - run: ./hello
       # - run: apt-get update
       # - run: apt-get -qq install lsof python3.11 python3-selenium
