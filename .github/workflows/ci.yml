@@ -16,9 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       # - run: ls
-      - run: cabal --version
-      - run: cabal update
-      - run: cabal run
+      # - run: cabal --version
+      - run: cabal update -v0
+      - run: cabal run -v0
       # - run: ghc hello.hs
       # - run: ./hello
       # - run: apt-get update
