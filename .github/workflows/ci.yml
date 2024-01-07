@@ -16,6 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: ls
+      - run: cabal --version
+      - run: cd vuive
+      - run: ls
       # - run: ghc hello.hs
       # - run: ./hello
       # - run: apt-get update
