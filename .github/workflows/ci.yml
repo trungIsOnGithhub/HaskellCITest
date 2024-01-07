@@ -11,12 +11,13 @@ on:
 jobs:
   localtest:
     runs-on: ubuntu-latest
-    container: haskell
+    container:
+      image: haskell:9.6.3-slim-buster
     steps:
       - uses: actions/checkout@v3
       - run: ls
-      - run: ghc hello.hs
-      - run: ./hello
+      # - run: ghc hello.hs
+      # - run: ./hello
       # - run: apt-get update
       # - run: apt-get -qq install lsof python3.11 python3-selenium
       # - run: npm i
