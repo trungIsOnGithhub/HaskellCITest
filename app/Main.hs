@@ -1,7 +1,7 @@
 module Main where
 
 import System.Exit
-import HaskellExercise
+import ToDo
 
 -- testExercise1 :: Test
 -- testExercise1 =
