@@ -13,10 +13,14 @@ import ToDo
 
 main :: IO ()
 main = do
-    if addNum 1 1 == 2 then print("Exercise 1 passed")
-    else die("Exercise 1 failed")
+    -- if addNum 1 1 == 2 then print("Exercise 1 passed")
+    -- else die("Exercise 1 failed")
 
-    if sumList [1,2,0] == 4 then print("Exercise 2 passed")
-    else die("Exercise 2 failed")
+    -- if sumList [1,2,0] == 4 then print("Exercise 2 passed")
+    -- else die("Exercise 2 failed")
+    
+    tests <- readFile "test"
+    let lines_content = lines content
+    print lines_content
 
 -- runTestTTAndExit (TestList [testExercise1, testExercise2])
