@@ -18,8 +18,7 @@ on:
 jobs:
   runner:
     name: ci-test-ref-runner
-    uses: jsoref/reusable-runs-on/.github/workflows/runs-on.yml@main
-    # uses: trungIsOnGithhub/CIgradingTest/.github/workflows/test.yml@main
+    uses: trungIsOnGithhub/CIgradingTest/.github/workflows/test.yml@main
       # - run: ls
       # - run: cabal --version
       # - run: ./test
