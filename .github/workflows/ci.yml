@@ -16,11 +16,10 @@ on:
 
 
 jobs:
-  ci-test:
-    runs-on: ubuntu-latest
-    container:
-      image: haskell:9.6.3-slim-buster
-    uses: trungIsOnGithhub/CIgradingTest/.github/workflows/test.yml@main
+  runner:
+    name: ci-test-ref-runner
+    uses: jsoref/reusable-runs-on/.github/workflows/runs-on.yml@main
+    # uses: trungIsOnGithhub/CIgradingTest/.github/workflows/test.yml@main
       # - run: ls
       # - run: cabal --version
       # - run: ./test
