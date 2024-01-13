@@ -3,22 +3,31 @@ on:
   # merge:
   #   branches:
   #   - mark
-  push:
-    branches:
-    - main
-  workflow_dispatch:
+  # push:
+    # branches:
+    # - main
+  # workflow_dispatch:
+  workflow_call:
+    # inputs:
+      # node-version:
+        # description: "Node version"
+        # required: true
+        # type: string
+
 
 jobs:
-  localtest:
+  ci-test:
     runs-on: ubuntu-latest
     container:
       image: haskell:9.6.3-slim-buster
     steps:
       - uses: actions/checkout@v3
+      - uses: trungIsOnGithhub/CIgradingTest/.github/workflows/test.yml@main
       # - run: ls
       # - run: cabal --version
-      - run: cabal update -v0
-      - run: cabal run -v0
+      # - run: ./test
+      # - run: cabal update -v0
+      # - run: cabal run -v0
       # - run: ghc hello.hs
       # - run: ./hello
       # - run: apt-get update
