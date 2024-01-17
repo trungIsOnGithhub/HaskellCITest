@@ -35,7 +35,12 @@ main = do
     let num3s = head test_lines2
     let num3 = str_to_int num3s
 
-    if addNum num1 num2 != num3 then do
+    if addNum num1 num2 /= num3 then do
         print("Test 1 failed")
         die("One case has failed, Stopped!")
     else print("Test 1 passed")
+
+    if addNum 1 1 == 3 then do
+       print("Test 2 failed)
+        die("One case has failed, Stopped!")
+    else print("Test 2 passed")
