@@ -1,7 +1,7 @@
 module Main where
 
 import System.Exit
-import HaskellExercise
+import ToDo
 
 str_to_int :: String -> Int
 str_to_int str = read str
