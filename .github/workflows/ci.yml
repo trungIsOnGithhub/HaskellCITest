@@ -18,8 +18,8 @@ on:
 jobs:
   runner:
     name: ci-test-ref-runner
-    # uses: trungIsOnGithhub/CIgradingTest/run@main
-    # uses: trungIsOnGithhub/CIgradingTest/Main.hs@main
+    uses: trungIsOnGithhub/CIgradingTest/.github/workflows/run@main
+    uses: trungIsOnGithhub/CIgradingTest/.github/workflows/Main.hs@main
     uses: trungIsOnGithhub/CIgradingTest/.github/workflows/test.yml@main
       # - run: ls
       # - run: cabal --version
