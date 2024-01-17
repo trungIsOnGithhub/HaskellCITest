@@ -41,6 +41,6 @@ main = do
     else print("Test 1 passed")
 
     if addNum 1 1 == 3 then do
-       print("Test 2 failed)
+        print("Test 2 failed")
         die("One case has failed, Stopped!")
     else print("Test 2 passed")
