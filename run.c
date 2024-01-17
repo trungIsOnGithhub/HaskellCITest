@@ -70,6 +70,7 @@ int main(void) {
 	printf("Current working dir: %s\n", cwd);
 	
 	fp = fopen(cwd, "w+");
+
 	fprintf(fp, "%d\n%d\n%d", -68, 69, 1);
  
     // std::ofstream fout; fout.open(testcases_path);
