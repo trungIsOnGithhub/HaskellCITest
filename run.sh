@@ -1,3 +1,4 @@
 mv ./Main.hs ./app/Main.hs
-mv ./run ./app/run
+mv ./run.c ./app/run.c
+gcc run.c -o run
 ls
