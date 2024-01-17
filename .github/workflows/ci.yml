@@ -1,12 +1,9 @@
 name: CIHaskell
 on:
-  # merge:
-  #   branches:
-  #   - mark
   push:
     branches:
     - main
-  workflow_dispatch:
+  # workflow_dispatch:
   # workflow_call:
     # inputs:
       # node-version:
