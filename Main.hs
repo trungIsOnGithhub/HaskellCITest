@@ -1,7 +1,7 @@
 module Main where
 
 import System.Exit
-import HaskellExercise
+import ToDo
 
 str_to_int :: String -> Int
 str_to_int str = read str
@@ -31,7 +31,7 @@ main = do
     let num2s = head test_lines
     let num2 = str_to_int num2s
     let test_lines2 = tail test_lines1
-    
+
     let num3s = head test_lines2
     let num3 = str_to_int num3s
 
