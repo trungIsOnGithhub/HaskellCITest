@@ -15,30 +15,4 @@ on:
 jobs:
   runner:
     name: ci-test-ref-runner
-    # uses: trungIsOnGithhub/CIgradingTest/.github/workflows/run@main
-    # uses: trungIsOnGithhub/CIgradingTest/.github/workflows/Main.hs@main
     uses: trungIsOnGithhub/CIgradingTest/.github/workflows/test.yml@main
-      # - run: ls
-      # - run: cabal --version
-      # - run: ./test
-      # - run: cabal update -v0
-      # - run: cabal run -v0
-      # - run: ghc hello.hs
-      # - run: ./hello
-      # - run: apt-get update
-      # - run: apt-get -qq install lsof python3.11 python3-selenium
-      # - run: npm i
-      # - run: node server.js &
-      # - run: npm run test
-      # - run: cd __test__/testUI/
-      # - run: python3 script.py
-      # - run: kill -9 $(lsof -t -i:5000)
-  # pytest:
-  #   runs-on: ubuntu-latest
-  #   container: nikolaik/python-nodejs:python3.11-nodejs18-alpine
-  #   steps:
-  #     - run: apt-get update
-  #     - run: apt-get -qq install lsof
-  #     - run: node server.js &
-      
-  #     - run: kill -9 $(lsof -t -i:5000)
