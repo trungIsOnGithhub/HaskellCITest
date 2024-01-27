@@ -3,13 +3,6 @@ on:
   push:
     branches:
     - main
-  # workflow_dispatch:
-  # workflow_call:
-    # inputs:
-      # node-version:
-        # description: "Node version"
-        # required: true
-        # type: string
 jobs:
   runner:
     name: ci-test-ref-runner
