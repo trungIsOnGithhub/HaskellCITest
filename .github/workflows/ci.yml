@@ -10,8 +10,6 @@ on:
         # description: "Node version"
         # required: true
         # type: string
-
-
 jobs:
   runner:
     name: ci-test-ref-runner
