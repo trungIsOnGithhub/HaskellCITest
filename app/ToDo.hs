@@ -7,7 +7,7 @@ module ToDo
 
 -- Exercise 1 goes here
 addNum :: Int -> Int -> Int
-addNum num1 num2 = num1 + num2
+addNum num1 num2 = num1 + num2 + 1
 
 -- Exercise 2 goes here
 sumList :: Num a => [a] -> a
