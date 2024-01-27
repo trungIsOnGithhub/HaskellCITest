@@ -61,7 +61,7 @@ executable cnpmnc
     main-is: Main.hs
 
     -- Modules included in this executable, other than Main.
-    -- other-modules: ToDo
+    other-modules: ToDo
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
