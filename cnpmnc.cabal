@@ -67,7 +67,7 @@ executable cnpmnc
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends: base ^>=4.18.0.0
+    build-depends: base ^>=4.0
 
     -- Directories containing source files.
     hs-source-dirs:   app
