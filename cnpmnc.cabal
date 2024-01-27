@@ -54,7 +54,7 @@ common warnings
     ghc-options: -Wall
 
 executable cnpmnc
-    -- Import common warning flags.
+    --- Import common warning flags.
     import: warnings
 
     -- .hs or .lhs file containing the Main module.
