@@ -6,7 +6,6 @@ on:
   # workflow_dispatch:
   #   description: 'Test Tag'
   #   required: false
-  #   type: boolean
 jobs:
   runner:
     name: ci-test-ref-runner
