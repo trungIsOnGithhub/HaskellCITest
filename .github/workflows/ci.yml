@@ -4,7 +4,7 @@ on:
     branches:
     - main
   workflow_dispatch:
-    description: 'Test Tags'
+    description: 'Test Tag'
     required: false
     type: boolean
 jobs:
