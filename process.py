@@ -3,6 +3,7 @@ import base64
 import json
 
 from contents import driver_code, utilities_code
+from output import
 
 def exercise_1_input_prepare(input_string, file_path):
     number_str_list = input_string[1:][:-1].split(',')
@@ -11,17 +12,8 @@ def exercise_1_input_prepare(input_string, file_path):
 
     for number_str in number_str_list:
         file.write(number_str + ' ')
-def output_prepare(file_path):
-    file = open(file_path, 'r')
-
-    for line in file:# only 1 line
-        line_encoded_bytes = line.encode('ascii')
-        line_string_bytes = base64.b64encode(line_encoded_bytes)
-
-    return line_string_bytes
 
 def exercise_2_input_prepare(input_string, file_path):
-# vui = ''''''
     number_str_list = input_string.split(',')
 
     file = open(file_path, 'w')
