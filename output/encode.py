@@ -15,4 +15,4 @@ def output_file_encode(file_path):
 
 if __name__ == '__main__':
     if sys.argv is not None and len(sys.argv) > 0:
-    print(output_file_encode(sys.argv[0]))
+        print(output_file_encode(sys.argv[0]))
